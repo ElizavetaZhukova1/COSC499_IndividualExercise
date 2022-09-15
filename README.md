@@ -17,11 +17,11 @@ The list of features:
 
 ### Feature 1
 
-This function (`calc_sym_words_ratio()` from `project_functions.py`) first lowercases the text, preprocesses it using re (pre-installed python package) to get rid of the punctuation signs, tokenizes the string into words and then calculates the total amount of symbols and divides it by total amount of words, rounding the final result to 3 decimal places. The function is well-equipped to deal with punctuation signs, double whitespaces, and the absence of whitespaces after punctuation signs (for example "Well,then" will be interpreted as 2 words), but it does not expand contractions ("They're" will be interpreted as 1, 7-letter word). The punctuation signs and whitespaces are not included in the symbols count.
+This function (`calc_sym_words_ratio()` from `project_functions.py`) first lowercases the text, preprocesses it using re (pre-installed python package) to get rid of the punctuation signs, tokenizes the string into words and then calculates the total amount of symbols and divides it by total amount of words, rounding the final result to 3 decimal places. The function is well-equipped to deal with punctuation signs, double whitespaces, and the absence of whitespaces after punctuation signs (for example "Well,then" will be interpreted as 2 words), but it does not expand contractions ("They're" will be interpreted as 2 words "they" and "re"). The punctuation signs and whitespaces are not included in the symbols count.
 
 ### Feature 2
 
-This function (`calc_words_sent_ratio()` from `project_functions.py`) breaks the user's input into sentences and, separately, breaks it into words (both are performed using re Python package). Then it divides the number of words by the number of sentences and returns the result rounded to 3 decimal places.
+This function (`calc_words_sent_ratio()` from `project_functions.py`) breaks the user's input into sentences and, separately, breaks it into words (both are performed using re Python package, again, contractions are not expanded). Then it divides the number of words by the number of sentences and returns the result rounded to 3 decimal places.
 - - - -
 
 ## Description of each file
