@@ -1,5 +1,5 @@
 from project_functions import calc_sym_words_ratio, calc_words_sent_ratio
-
+#Run this one to see the features in action
 u_text=input("Hello, please, enter the text to get useful statistics on it!\n")
 symb_res=calc_sym_words_ratio(u_text)
 sent_res=calc_words_sent_ratio(u_text)
