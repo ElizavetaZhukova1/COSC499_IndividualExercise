@@ -30,3 +30,4 @@ This function (`calc_words_sent_ratio()` from `project_functions.py`) breaks the
 - `project_run.py` takes the user input and by using the functions from `project_functions.py` prints to the user the statistics about the text she entered
 - `test_sym.py` implements unit tests for the first feature using unittest (pre-installed python package)
 - `test_sent.py` implements unit tests for the second feature using unittest (pre-installed python package)
+- `explanation.md` explanation for tests, as required by the assignment

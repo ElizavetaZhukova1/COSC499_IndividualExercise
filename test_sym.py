@@ -1,7 +1,7 @@
 import unittest
 from project_functions import calc_sym_words_ratio
 
-class TestStringMethods(unittest.TestCase):
+class TestSymsCalculations(unittest.TestCase):
 
     def test_empty(self):
         self.assertEqual(calc_sym_words_ratio(""), None)
