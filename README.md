@@ -15,4 +15,3 @@ This function (`calc_sym_words_ratio()` from `project_functions.py`) first lower
 - `project_functions.py` contains all the functions needed for the project to run (so far it contains the functions needed for the first feature only)
 - `project_run.py` takes the user input and by using the functions from `project_functions.py` prints to the user the statistics about the text she entered
 - `test_sym.py` implements unit tests for the first feature using unittest (pre-installed python package) 
-- `gitstat_statistics.ipynb` **Warning! This file, then run, will uninstall gitstats and install it again using pip** Based on [the instructions](https://github.com/brandongk-ubco/gitstats#installing-and-running-gitstats) linked in the slides, this file provides the statistics on the activity which happened in this repo
